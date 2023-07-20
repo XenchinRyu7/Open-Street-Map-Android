@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Maps Tracker</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="question1">1. Jika anda ingin mencari sebuah daerah/lokasi namun ada pada beberapa tempat, anda dapat menggunakan kata kunci search, seperti contoh berikut "Kuningan, Jawa barat", maka sistem akan mencari kota Kuningan yang berada di jawa barat bukan di jakarta.</string>
+    <string name="question2">2. Catatan, aplikasi ini masih belum dapat mencari sebuah bangunan atau tempat seperti kafe yang baru ada beberapa tahun terakhir.</string>
+    <string name="question3">3. Jika anda mencari lokasi anda dan itu terjadi looping, ketika menggeser dan memperbesar map, itu dikarenakan sistem menggunakan algoritma real time, dimana setiap detik itu akan terjadi pembaruan, anda dapat mematikan gps terlebih dahulu, dan menjalankannya kembali ketika dibutuhkan.</string>
+    <string name="catatan">Open Street Map adalah sebuah library Open Source yang belum sempurna secara built in android map dibandingkan dengan Gmaps, karena ini adalah sebuah library gratis namun dengan server mengudara, oleh karena itu akan ada beberapa fitur yang tidak tersedia, dan fitur yang belum sempurna.</string>
+</resources>
