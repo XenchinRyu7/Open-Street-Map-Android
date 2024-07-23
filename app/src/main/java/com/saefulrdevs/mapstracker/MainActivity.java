@@ -1,4 +1,4 @@
-package com.vsga_xenchinryu.mapstracker;
+package com.saefulrdevs.mapstracker;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -29,7 +29,7 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.vsga_xenchinryu.mapstracker.databinding.ActivityMainBinding;
+import com.saefulrdevs.mapstracker.databinding.ActivityMainBinding;
 
 import org.osmdroid.bonuspack.location.GeocoderNominatim;
 import org.osmdroid.config.Configuration;
@@ -119,13 +119,11 @@ public class MainActivity extends AppCompatActivity {
         locationCallback = new LocationCallback() {
             @Override
             public void onLocationResult(@NonNull LocationResult locationResult) {
-                if (locationResult != null) {
-                    // Mendapatkan lokasi terbaru
-                    Location location = locationResult.getLastLocation();
-                    double latitude = location.getLatitude();
-                    double longitude = location.getLongitude();
-                    updateUserLocation(latitude, longitude);
-                }
+                // Mendapatkan lokasi terbaru
+                Location location = locationResult.getLastLocation();
+                double latitude = location.getLatitude();
+                double longitude = location.getLongitude();
+                updateUserLocation(latitude, longitude);
             }
         };
     }

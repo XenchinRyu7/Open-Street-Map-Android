@@ -1,4 +1,4 @@
-package com.vsga_xenchinryu.mapstracker;
+package com.saefulrdevs.mapstracker;
 
 import android.content.Context;
 
